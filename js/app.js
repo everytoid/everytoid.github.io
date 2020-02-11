@@ -14,7 +14,7 @@ const coffees = [
   },
   {
     name: "Rchitecto",
-    image: "images/coffee4.jpg"
+    image: "images/cat.jpg"
   },
 ];
 const showCoffees = () => {
