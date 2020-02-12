@@ -25,7 +25,7 @@ const showCoffees = () => {
               <div class="card">
                 <img class="card--avatar" src=${image} />
                 <h1 class="card--title">${name}</h1>
-                <a class="card--link" href="#">Read More</a>
+                <a class="card--link" href="https://www.medgadget.com/2017/09/wireless-handheld-ultrasound-ios-android-interview-laurent-pelissier-ceo-clarius-mobile-health.html">Read More</a>
               </div>
               `)
   );
