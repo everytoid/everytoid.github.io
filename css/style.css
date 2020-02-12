@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lexend+Deca:400,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
 
 body {
   background: #fdfdfd;
-  font-family: "Nunito", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 1rem;
 }
 
