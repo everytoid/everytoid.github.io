@@ -1,20 +1,20 @@
 const container = document.querySelector(".container");
 const coffees = [
   {
-    name: "Perspiciatis",
-    image: "images/coffee1.jpg"
+    name: "Magento",
+    image: "images/magento-blog.png"
   },
   {
-    name: "Voluptatem",
-    image: "images/coffee2.jpg"
+    name: "Oxford Biolabs",
+    image: "images/oxbio.png"
   },
   {
-    name: "Explicabo",
-    image: "images/coffee3.jpg"
+    name: "MedGadget",
+    image: "images/medgadget.png"
   },
   {
-    name: "Rchitecto",
-    image: "images/cat.jpg"
+    name: "WealthTech Club",
+    image: "images/wtc-club.png"
   },
 ];
 const showCoffees = () => {
@@ -25,7 +25,7 @@ const showCoffees = () => {
               <div class="card">
                 <img class="card--avatar" src=${image} />
                 <h1 class="card--title">${name}</h1>
-                <a class="card--link" href="#">Taste</a>
+                <a class="card--link" href="#">Read More</a>
               </div>
               `)
   );
