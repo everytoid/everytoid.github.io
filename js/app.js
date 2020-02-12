@@ -3,6 +3,7 @@ const coffees = [
   {
     name: "Magento",
     image: "images/magento-blog.png"
+    url: "https://www.indieshuffle.com/user/yuriy-sarkisov/favorites/",
   },
   {
     name: "Oxford Biolabs",
@@ -25,7 +26,7 @@ const showCoffees = () => {
               <div class="card">
                 <img class="card--avatar" src=${image} />
                 <h1 class="card--title">${name}</h1>
-                <a class="card--link" href="">Read More</a>
+                <a class="card--link" href="${url}">Read More</a>
               </div>
               `)
   );
