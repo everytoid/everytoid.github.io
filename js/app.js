@@ -3,19 +3,22 @@ const coffees = [
   {
     name: "Magento",
     image: "images/magento-blog.png",
-    url: "https://www.indieshuffle.com/user/yuriy-sarkisov/favorites/"
+    url: "https://magento.com/blog/technical/how-elogic-became-magento-solution-partner-5-lessons-learned"
   },
   {
     name: "Oxford Biolabs",
-    image: "images/oxbio.png"
+    image: "images/oxbio.png",
+    url: "https://www.oxfordbiolabs.com/blogs/research-publications/the-truth-about-biotin-and-hair-growth/"
   },
   {
     name: "MedGadget",
-    image: "images/medgadget.png"
+    image: "images/medgadget.png",
+    url: "https://www.medgadget.com/2017/09/wireless-handheld-ultrasound-ios-android-interview-laurent-pelissier-ceo-clarius-mobile-health.html"
   },
   {
     name: "WealthTech Club",
-    image: "images/wtc-club.png"
+    image: "images/wtc-club.png",
+    url: "https://wealth.insart.com/ibm-cloud-for-financial-services/"
   },
 ];
 const showCoffees = () => {
