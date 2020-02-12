@@ -2,7 +2,7 @@ const container = document.querySelector(".container");
 const coffees = [
   {
     name: "Magento",
-    image: "images/magento-blog.png"
+    image: "images/magento-blog.jpg"
   },
   {
     name: "Oxford Biolabs",
