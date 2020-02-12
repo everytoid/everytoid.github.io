@@ -2,8 +2,8 @@ const container = document.querySelector(".container");
 const coffees = [
   {
     name: "Magento",
-    image: "images/magento-blog.png"
-    url: "https://www.indieshuffle.com/user/yuriy-sarkisov/favorites/",
+    image: "images/magento-blog.png",
+    url: "https://www.indieshuffle.com/user/yuriy-sarkisov/favorites/"
   },
   {
     name: "Oxford Biolabs",
