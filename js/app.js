@@ -21,7 +21,7 @@ const posts = [
     url: "https://wealth.insart.com/ibm-cloud-for-financial-services/"
   },
 ];
-const showCoffees = () => {
+const showPosts = () => {
   let output = "";
   posts.forEach(
     ({ name, image, url }) =>
