@@ -1,5 +1,5 @@
 const container = document.querySelector(".container");
-const coffees = [
+const posts = [
   {
     name: "Magento",
     image: "images/magento-blog.png",
@@ -23,7 +23,7 @@ const coffees = [
 ];
 const showCoffees = () => {
   let output = "";
-  coffees.forEach(
+  posts.forEach(
     ({ name, image, url }) =>
       (output += `
               <div class="card">
@@ -36,7 +36,7 @@ const showCoffees = () => {
   container.innerHTML = output;
 };
 
-document.addEventListener("DOMContentLoaded", showCoffees);
+document.addEventListener("DOMContentLoaded", showPosts);
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
